@@ -1,0 +1,30 @@
+# Hugo build configuration for Netlify
+# (https://gohugo.io/hosting-and-deployment/hosting-on-netlify/#configure-hugo-version-in-netlify)
+# Default build settings
+[build]
+  publish = "public"
+  command = "cd themes/zzo && git submodule update -f --init && cd ../.. && hugo"
+
+
+# https://github.com/netlify-labs/netlify-plugin-sitemap
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "public"
+  exclude =[
+    './public/docs/plugin-guide/plugin-appname/',
+    './public/docs/plugin-guide/plugin-policy-engine/'
+  ]
+  # append missing trailing slash to prettyURL
+  trailingSlash = true
+  changeFreq = "weekly"
+  priority = 0.5
+
+
+# headers  https://docs.netlify.com/routing/headers/#syntax-for-the-headers-file
+# https://cloud-armory.slack.com/archives/CH4RVCCTS/p1608572781420500
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
