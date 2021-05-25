@@ -2,6 +2,7 @@
 title: "Bond's First Time Working in the Barn"
 date: 2020-05-22
 description: Bond works in the barn!
+categories:
 draft: false
 ---
 
