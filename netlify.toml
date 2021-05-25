@@ -5,6 +5,12 @@
   publish = "public"
   command = "cd themes/zzo && git submodule update -f --init && cd ../.. && hugo"
 
+# "production" environment specific build settings
+[build.environment]
+  HUGO_VERSION = "0.71.1"
+  HUGO_THEME = "docsy"
+  HUGO_ENV = "production"
+
 
 # https://github.com/netlify-labs/netlify-plugin-sitemap
 [[plugins]]
