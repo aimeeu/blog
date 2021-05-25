@@ -1,11 +1,12 @@
 ---
-title: "My First Post"
+title: "Bond's First Time Working in the Barn"
 date: 2020-05-22
-description: This is my awesome post!
+description: Bond works in the barn!
 draft: false
 ---
 
 At this past Saturday’s lesson, Bond and I did something we had never done before – we helped round up 4 adults and 8 lambs, move them into the barn, separate into two groups, and then move them into box stalls.
+
 After I arrived, the conversation went something like this:
 B: “The sheep are in the barn. We just have to move them into the box stalls before the shearer comes.”
 Me: “You mean those sheep in the pasture? The ones staring at us?”
