@@ -1,7 +1,8 @@
 ---
 title: "Bond's First Time Working in the Barn"
 date: 2020-05-22
-description: Bond works in the barn!
+description: >
+  Bond works in the barn! We rounded up 4 adults and 8 lambs, moved them into the barn, separated them into two groups, and then moved them into box stalls... eventually.
 categories:
 draft: false
 ---
