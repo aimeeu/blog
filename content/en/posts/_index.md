@@ -1,4 +1,7 @@
----
-title: "Post section"
-description: All the list of my posts
----
++++
+aliases = ["posts","articles","blog","showcase","docs"]
+title = "Posts"
+author = "Hugo Authors"
+tags = ["index"]
+description = "Post page"
++++
