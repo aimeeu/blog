@@ -10,3 +10,5 @@ draft: false
 Ducks are evil.
 
 {{< figure src="/images/posts/bond-ducks.png" alt="Bond holds ducks in place."  caption="Bond holds the ducks in place." >}}
+
+See Bond's first post: {{< linkWithTitle "20200522-BondFirstBarnWork" >}}
